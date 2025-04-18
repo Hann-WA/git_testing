@@ -16,13 +16,13 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>React Project Counter Website</h1>
+      <h1>Simple Counter Project</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          know your count!
         </p>
       </div>
       <p className="read-the-docs">
